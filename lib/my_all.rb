@@ -23,3 +23,5 @@ my_all?([1,2,3]) {|i| i < 2}
 #     i = 0 + 1
 #   end
 # end
+
+# Step 4: determine return value of the method
