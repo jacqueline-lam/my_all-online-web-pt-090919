@@ -10,6 +10,14 @@ def my_all?(collection)
     block_return_values << yield(collection[i]) #2: yield each ele in collection to the block
     i += 1 
   end
+  
+  #Step 4: determine return value of method
+  if block_return_values.include?(false)
+    false
+  else
+    true
+  end
+  
 end
 
 
