@@ -25,3 +25,5 @@ my_all?([1,2,3]) {|i| i < 2}
 # end
 
 # Step 4: determine return value of the method
+# block_return_values = [true, false, false]
+
