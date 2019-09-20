@@ -26,4 +26,5 @@ my_all?([1,2,3]) {|i| i < 2}
 
 # Step 4: determine return value of the method
 # block_return_values = [true, false, false]
+# add an #include? method to determine the return value of the my_all? method
 
