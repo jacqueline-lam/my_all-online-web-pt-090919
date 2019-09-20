@@ -2,11 +2,12 @@ require 'pry'
 
 def my_all?(collection)
   i = 0 
-  block_return_values = []
+  block_return_values = [] #3: Save return value of yield block
   
   while i < collection.length
     #send whatever passed in as the argument ot the block
-    block_return_values << yield(collection[i]) #yied each ele in collection to the block
+    #3b:
+    block_return_values << yield(collection[i]) #2: yield each ele in collection to the block
     i += 1 
   end
 end
